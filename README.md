@@ -7,10 +7,10 @@
 ## Description
 
 ### Mobile version Screenshot:
-![screenshot](./Mobile-version-Screenshot.png)
+![screenshot](./image/Mobile-version-Screenshot.png)
 
 ### Desktop version Screenshot
-![screenshot](./Desktop-version-screenshot.png)
+![screenshot](./image/Desktop-version-screenshot.png)
 
 The objectives of this project is to:
 
