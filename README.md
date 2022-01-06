@@ -1,18 +1,30 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Personal Portfolio
 
-> One paragraph statement about the project.
+> This project help to know how to build the portfolio and portfolio is one of the most powerful tools in our software developer toolbox; it’s the easiest way of showing what we’re truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what we can bring to their teams.
 
-![screenshot](./app_screenshot.png)
+## Description
 
-Additional description about the project and its features.
+### Mobile version Screenshot:
+![screenshot](./Mobile-version-Screenshot.png)
+
+### Desktop version Screenshot
+![screenshot](./Desktop-version-screenshot.png)
+
+The objectives of this project is to:
+
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- CSS Flexbox
 
 ## Live Demo
 
@@ -21,39 +33,26 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- You need to have git installed in your computer
+- A text editor or terminal
+- A web browser to view output of your project
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+To clone the repository run the command `git clone https://github.com/cynthiainga/Personal_Portfolio.git`
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@cynthiainga](https://github.com/cynthiainga)
+- Twitter: [@CynthiaInga_C](https://twitter.com/CynthiaInga_C)
+- LinkedIn: [Cynthia Inga](https://www.linkedin.com/in/cynthia-inga7/)
 
 ## 🤝 Contributing
 
@@ -67,9 +66,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks for my coding parters
+- Hat tip to Microvers curriculum and all the team
+- Hat to Figma for their templates
 
 ## 📝 License
 
