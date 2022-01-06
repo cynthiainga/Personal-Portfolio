@@ -63,11 +63,11 @@ header h2 {
 }
 
 @keyframes crane-float {
-  0% {
+0% {
   transform: translateY(0);
 }
 
-  100% {
+100% {
   transform: translateY(-10px);
 }
 }
@@ -156,11 +156,11 @@ ul {
 }
 
 @keyframes top-bottom {
-  0% {
+0% {
   transform: translateY(-50%);
 }
 
-  100% {
+100% {
   transform: translateY(0);
 }
 }
@@ -179,11 +179,11 @@ ul {
 }
 
 @keyframes left-right {
-  0% {
+0% {
   transform: translateX(-30%);
-}  
+}
 
-  100% {
+100% {
   transform: translateX(0);
 }
 }
@@ -199,20 +199,20 @@ ul {
 }
 
 @media screen and (min-width: 600px) {
-  .main-section-title h1,
-  .main-section-title h2 {
+.main-section-title h1,
+.main-section-title h2 {
   font-weight: 800;
   letter-spacing: 0.4px;
 }
 
-  .main-section p {
+.main-section p {
   max-width: 900px;
   letter-spacing: 0.6px;
 }
 }
 
 @media screen and (min-width: 768px) {
-  header {
+header {
   position: fixed;
   left: 0;
   right: 0;
@@ -221,19 +221,19 @@ ul {
   z-index: 1;
 }
 
-  header h2,
-  nav .show-menu-btn {
+header h2,
+nav .show-menu-btn {
   display: none;
 }
 
-  nav .nav-menu {
+nav .nav-menu {
   display: flex;
   justify-self: center;
   visibility: visible;
   transform: translateY(0%);
 }
 
-  .nav-menu .nav-link a {
+.nav-menu .nav-link a {
   display: flex;
   justify-self: center;
   padding: 5px 15px;
@@ -246,21 +246,21 @@ ul {
   transition: all 0.5s ease-in-out;
 }
 
-  .nav-menu .nav-link:first-child a {
+.nav-menu .nav-link:first-child a {
   color: #172b4d;
 }
 
-  .nav-menu .nav-link a:hover {
+.nav-menu .nav-link a:hover {
   color: #172b4d;
   background-color: #36b37f;
 }
 
-  main {
+main {
   position: relative;
   padding-bottom: 58px;
 }
 
-  .main-section {
+.main-section {
   margin-top: 42px;
   background-image: none;
   background-image: url("../image/Header-llustration-desktop@2x.png");
@@ -269,16 +269,16 @@ ul {
   background-position: center center;
 }
 
-  .main-section-title {
+.main-section-title {
   padding-top: 170px;
 }
 
-  .main-section p {
+.main-section p {
   width: 70%;
   margin: 24px auto 44px;
 }
 
-  .social-media-icons li a img {
+.social-media-icons li a img {
   padding: 0 20px;
 }
 }
