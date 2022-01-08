@@ -18,60 +18,64 @@ html {
   overflow-x: hidden;
 }
 
-.d-flex {
-  display: flex;
-  }
-  .flex-center {
+.flex-center {
   align-items: center;
   display: flex;
   justify-content: center;
-  }
-  .flex-column {
+}
+.flex-column {
   flex-direction: column;
-  }
-  .flex-row {
+}
+.flex-row {
   flex-direction: row;
-  }
-  .flex-wrap {
+}
+.flex-wrap {
   flex-wrap: wrap;
-  }
-  .flex-nowrap {
+}
+.flex-nowrap {
   flex-wrap: nowrap;
-  }
-  .flex-wrap-reverse {
+}
+.flex-wrap-reverse {
   flex-wrap: wrap-reverse;
-  }
-  .flex-between {
+}
+.flex-between {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  }
-  
-  .align-start {
-  align-items: flex-start;
-  }
-  .align-center {
-  align-items: center;
-  }
-  .align-end {
-  align-items: flex-end;
-  }
-  .justify-start {
-  justify-content: flex-start;
-  }
-  .justify-end {
-  justify-content: flex-end;
-  }
-  .justify-center {
-  justify-content: center;
-  }
-  .justify-between {
-  justify-content: space-between;
-  }
-  .justify-around {
-  justify-content: space-around;
-  } 
+}
 
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+ 
 .h2-size {
   color: var(--primary);
   font-size: 40px;
@@ -81,11 +85,6 @@ html {
 
 .d-flex {
   display: flex;
-}
-
-.flex-center {
-  align-items: center;
-  justify-content: center;
 }
 
 .mobile-invisible {
@@ -267,6 +266,12 @@ ul {
   transition: all 0.4s ease-in-out;
 }
 
+.section-1 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 .social-media-icons li a img {
   padding: 0 20px;
   margin: 5px 0;
@@ -301,7 +306,8 @@ ul {
   background-color: var(--secondary);
 }
 
-.frame ul, .frames ul {
+.frame ul,
+.frames ul {
   width: 100%;
   justify-content: center;
   align-items: flex-start;
@@ -309,7 +315,7 @@ ul {
   text-align: center;
 }
 
-.section-1{
+.section-1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -320,17 +326,14 @@ ul {
   box-sizing: border-box;
   border-radius: 0.5rem;
 }
-.section-1 img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
+
 .section-1 p {
   font-size: 22px;
   color: #3a4a42;
   margin: 0;
   padding: 0;
 }
+
 .section-1 ul {
   display: flex;
   justify-content: center;
@@ -338,6 +341,7 @@ ul {
   list-style: none;
   padding-left: 2%;
 }
+
 .section-1 ul li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -350,6 +354,19 @@ ul {
   border-radius: 8px 10px 8px 10px;
   cursor: pointer;
 }
+
+.frames .languages li {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  margin: 3px 5px;
+  color: var(--secondary);
+  background: #fff;
+  border-radius: 8px;
+}
+
 .section-1 ul li:hover {
   background: #36b37f;
   color: #fff;
@@ -370,6 +387,7 @@ ul {
   margin-bottom: 22px;
   cursor: pointer;
 }
+
 .section-1 .btn {
   width: 100%;
   justify-content: center;
@@ -424,24 +442,8 @@ button:active {
   line-height: 32px;
   letter-spacing: 0.4px;
   font-weight: 400;
-  color: #42526E;
+  color: #42526e;
   padding-bottom: 24px;
-}
-
-.about button:active {
-  background-color: #36b37e;
-}
-
-.frames .languages li {
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  padding: 12px;
-  margin: 3px 5px;
-  color: var(--secondary);
-  background: #FFFFFF;
-  border-radius: 8px;
 }
 
 .about button {
@@ -458,6 +460,10 @@ button:active {
   padding: 12px;
   margin-bottom: 10px;
   transition: all 0.4s ease 0.2s;
+}
+
+.about button:active {
+  background-color: #36b37e;
 }
 
 .frame-wrapper {
