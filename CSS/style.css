@@ -81,7 +81,7 @@ html {
 .justify-around {
   justify-content: space-around;
 }
- 
+
 .h2-size {
   color: var(--primary);
   font-size: 40px;
@@ -377,6 +377,7 @@ ul {
   background: #36b37f;
   color: #fff;
 }
+
 .section-1 button {
   background: #36b37f;
   border-radius: 5px;
@@ -524,7 +525,6 @@ button:active {
     max-width: 900px;
     letter-spacing: 0.6px;
   }
-
 
   .frame,
   .frame-wrapper .frames {
