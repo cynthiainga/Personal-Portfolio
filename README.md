@@ -8,7 +8,7 @@
 
 ### Mobile version Screenshot:
 
-![screenshot](./image/Screenshot1.png/)
+![screenshot](./image/screenshot1.png/)
 
 The objectives of this project is to:
 
