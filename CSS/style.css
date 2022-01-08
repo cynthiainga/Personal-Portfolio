@@ -23,21 +23,27 @@ html {
   display: flex;
   justify-content: center;
 }
+
 .flex-column {
   flex-direction: column;
 }
+
 .flex-row {
   flex-direction: row;
 }
+
 .flex-wrap {
   flex-wrap: wrap;
 }
+
 .flex-nowrap {
   flex-wrap: nowrap;
 }
+
 .flex-wrap-reverse {
   flex-wrap: wrap-reverse;
 }
+
 .flex-between {
   display: flex;
   align-items: center;
