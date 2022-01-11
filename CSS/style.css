@@ -105,7 +105,7 @@ html {
 body {
   width: 100%;
   min-height: 100vh;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -427,7 +427,9 @@ button:active {
 }
 
 .about-section {
-  background: url("../image/illustration\ 2-about\ me\ mobile.svg") left 17% no-repeat, url("../image/illustration\ 1-\ about\ me-mobile.svg")  right 1%  no-repeat;
+  background: url("../image/illustration\ 2-about\ me\ mobile.svg") left 17%
+      no-repeat,
+    url("../image/illustration\ 1-\ about\ me-mobile.svg") right 1% no-repeat;
   background-size: 13%;
   padding-bottom: 60px;
 }
@@ -618,16 +620,36 @@ button:active {
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 1.5rem;
   width: 90%;
-  margin: 2rem  0;
+  margin: 2rem 0;
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 90%;
+}
+
+.input-container {
+  width: 100%;
 }
 
 .contact-f-li {
   width: 100%;
-  margin: 30px 0;
+  height: 48px;
+  margin: 12px 0;
+}
+
+footer {
+  height: 100px;
+}
+
+.contact-footer {
+  background-image: url(../image/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: right 90%;
+  background-size: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
