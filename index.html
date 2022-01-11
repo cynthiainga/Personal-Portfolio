@@ -257,48 +257,31 @@
           </li>
         </ul>
       </section>
-      <form action="https://formspree.io/f/mnqwneyz" method="post" id="form">
-        <h2 class="h2-size">
+      <section id="contact" class="contact-form d-flex flex-center">
+        <form action="https://formspree.io/f/mnqwneyz" method="post" id="form">
+          <h2 class="h2-size">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
-        </h2>
-        <ul>
-          <li class="contact-f-li">
-            <label for="name">
-              <input
-                type="text"
-                id="name"
-                name="user_name"
-                placeholder="Full name" maxlength="30" required
-              />
-            </label>
-          </li>
-          <li class="contact-f-li">
-            <label for="mail">
-              <input
-                type="email"
-                id="mail"
-                name="email-adress"
-                placeholder="Email address" required
-              />
-            </label>
-          </li>
-          <li class="contact-f-li">
-            <label for="msg">
-              <textarea
-                name="text"
-                id="msg"
-                cols="30"
-                rows="10"
-                placeholder="Enter text here" maxlength="500" required
-              ></textarea>
-            </label>
-          </li>
-          <li>
-            <button type="submit" class="btn-submit">Get in touch</button>
-          </li>
-        </ul>
-      </form>
+          </h2>
+          <ul class="form-sub-container">
+            <li>
+              <label for="name">
+                <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required/>
+              </label>
+            </li>
+            <li>
+              <label for="mail">
+                <input type="email" id="mail" name="email-adress" placeholder="Email address" required/>
+              </label>
+            </li>
+                <textarea id="msg" name="user_message" placeholder="Enter text here" rows="5" maxlength="500" required>
+                </textarea>
+            <li class="btn-submit-alert">
+              <button type="submit" class="footer-btn flex-center">Get in touch</button>
+            </li>
+          </ul>
+        </form>
+    </section>
     </main>
   </body>
 </html>

@@ -427,8 +427,8 @@ button:active {
 }
 
 .about-section {
-  background: url("../image/illustration\ 2-about\ me\ mobile.svg") left 17% no-repeat, url("../image/illustration\ 1-\ about\ me-mobile.svg")  right 1%  no-repeat;
-  background-size: 13%;
+  background: url("../image/illustration\ 2-about\ me\ mobile.svg") left 22% no-repeat, url("../image/illustration\ 1-\ about\ me-mobile.svg")  right 2%  no-repeat;
+  background-size: 18%;
   padding-bottom: 60px;
 }
 
@@ -454,7 +454,8 @@ button:active {
   padding-bottom: 24px;
 }
 
-.about button {
+.about button,
+.contact-form button {
   height: 48px;
   width: 159px;
   font-size: 17px;
@@ -621,13 +622,80 @@ button:active {
   margin: 2rem  0;
 }
 
+section.contact-form {
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-image: url("../image/illustration-contact-form.svg");
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: right 98%;
+  margin: 9px;
+}
+
 form {
+  width: 100%;
+  display: column;
+  text-align: center;
+}
+
+.contact-form button {
+  margin-top: 7px;
+  transition: all 0.4s ease 0.2s;
+}
+
+.form-sub-container {
+  min-width: 307px;
+  width: 100%;
+}
+
+.contact-form h2 {
+  width: 100%;
+  padding: 0 0 58px;
+}
+
+.contact-form input {
+  margin: 10px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding: 15px 10px;
+  width: 95%;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  margin-bottom: 24px;
+  border-radius: 4px;
+  padding: 12px;
+  width: 95%;
+  font-size: 16px;
+}
+
+input:focus, 
+textarea:focus {
+  border: none;
+  border: 1.3px solid #60c095;
+  outline: none;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  transition: 0.5s;
+  transform: translateX(5px);
+}
+
+.btn-submit-alert {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.contact-f-li {
-  width: 100%;
-  margin: 30px 0;
+footer::after {
+  content: " ";
+  display: block;
+  width: 128px;
+  height: 5px;
+  border-radius: 2px;
+  margin: 0 auto 10px;
+  background: var(--primary);
 }
