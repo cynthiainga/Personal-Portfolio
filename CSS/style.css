@@ -471,6 +471,11 @@ button:active {
   transition: all 0.4s ease 0.2s;
 }
 
+.contact-form button {
+  margin-top: 7px;
+  transition: all 0.4s ease 0.2s;
+}
+
 .about button:active {
   background-color: #36b37e;
 }
@@ -635,13 +640,7 @@ section.contact-form {
 
 form {
   width: 100%;
-  display: column;
   text-align: center;
-}
-
-.contact-form button {
-  margin-top: 7px;
-  transition: all 0.4s ease 0.2s;
 }
 
 .form-sub-container {
@@ -669,9 +668,10 @@ form {
   padding: 12px;
   width: 95%;
   font-size: 16px;
+  margin: 10px;
 }
 
-input:focus, 
+input:focus,
 textarea:focus {
   border: none;
   border: 1.3px solid #60c095;
