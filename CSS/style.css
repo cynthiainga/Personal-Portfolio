@@ -427,9 +427,7 @@ button:active {
 }
 
 .about-section {
-  background:
-      url("../image/illustration2-about-me-mobile.svg") left 17% no-repeat,
-      url("../image/illustration1-about-me-mobile.svg") right 1% no-repeat;
+  background:  url("../image/illustration2-about-me-mobile.svg") left 17% no-repeat,  url("../image/illustration1-about-me-mobile.svg") right 1% no-repeat;
   background-size: 13%;
   padding-bottom: 60px;
 }
