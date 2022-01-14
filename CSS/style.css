@@ -339,6 +339,12 @@ button:active {
 .about h2 {
   margin: 0 auto;
   padding-bottom: 24px;
+  animation: left-right 1s ease-in-out;
+}
+
+@keyframes left-right {
+0% {transform: translateX(-160%);}
+100% {transform: translateX(0%);}
 }
 
 .about p {
@@ -349,7 +355,13 @@ button:active {
   font-weight: 400;
   color: #42526e;
   padding-bottom: 24px;
+  animation: right-left 1s ease-in-out;
 }
+
+@keyframes right-left {
+  0% {transform: translateX(160%);}
+  100% {transform: translateX(0%);}
+  }
 
 .about button,
 .contact-form button {
