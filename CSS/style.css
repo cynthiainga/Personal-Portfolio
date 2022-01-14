@@ -826,12 +826,6 @@ textarea:hover::placeholder {
   }
 }
 
-<<<<<<< HEAD
-@media (min-width: 1024px) {
-  .card-container {
-    width: 75%;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-=======
 @media (min-width: 992px) {
   .card-container {
     width: 95%;
@@ -843,13 +837,12 @@ textarea:hover::placeholder {
   .card-container {
     width: 95%;
     grid-template-columns: repeat(3, 1fr); 
->>>>>>> ce34d22 ( Style my desktop version)
   }
 }
 
 button:hover {
   background-color: #36B37F;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  /* box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24); */
 }
 
 button:active {
