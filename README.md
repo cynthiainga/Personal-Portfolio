@@ -8,7 +8,11 @@
 
 ### Mobile version Screenshot:
 
-![screenshot](./image/screenshot1.png/)
+![screenshot](./image/Screenshot1.png/)
+
+### Desktop version Screenshot:
+
+![screenshot](./image/screenshot2.png/)
 
 The objectives of this project is to:
 
@@ -16,6 +20,9 @@ The objectives of this project is to:
 - Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
+- Create forms with HTML5 validations.
+- Understand the importance of UX.
+- Understand how to create UIs adaptable to different screen sizes using media queries.
 
 
 ## Built With
@@ -46,7 +53,7 @@ To clone the repository run the command `git clone https://github.com/cynthiaing
 
 ## Authors
 
-👤 **Author**
+👤 **Cynthia Inga Candy**
 
 - GitHub: [@cynthiainga](https://github.com/cynthiainga)
 - Twitter: [@CynthiaInga_C](https://twitter.com/CynthiaInga_C)
@@ -54,7 +61,9 @@ To clone the repository run the command `git clone https://github.com/cynthiaing
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+**Elerqsousy Riz**
+
+GitHub: (https://github.com/Elerqsousy)
 
 Feel free to check the [issues page](../../issues/).
 
