@@ -669,12 +669,12 @@ textarea:hover::placeholder {
     background-image: 
       url("../image/illustration-1-contact-form-desktop.png"),
       url("../image/illustration-2-contact-form-desktop.svg"),
-      url("../image/contact\ form-illustratoin-3-desktop.svg");
+      url("../image/contact-form-illustratoin-3-desktop.svg");
     background-position: 
       left bottom,
-      20% bottom,
+      30% bottom,
       right bottom;
-    background-size: 10%;
+    background-size: 12%;
     background-repeat: no-repeat;
   }
 
@@ -690,9 +690,9 @@ textarea:hover::placeholder {
   }
 
   .contact-form h2 {
-    width: 60%;
+    width: 663px;
     font-size: 30px;
-    line-height: 52px;
+    line-height: 50px;
     align-items: center;
     font-weight: bold;
     text-align: left;
@@ -826,10 +826,24 @@ textarea:hover::placeholder {
   }
 }
 
+<<<<<<< HEAD
 @media (min-width: 1024px) {
   .card-container {
     width: 75%;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+=======
+@media (min-width: 992px) {
+  .card-container {
+    width: 95%;
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-container {
+    width: 95%;
+    grid-template-columns: repeat(3, 1fr); 
+>>>>>>> ce34d22 ( Style my desktop version)
   }
 }
 
