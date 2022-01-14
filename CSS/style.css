@@ -681,7 +681,7 @@ textarea:hover::placeholder {
   section.contact-form {
     width: 100%;
     background-image: none;
-    background-image: 
+    background-image:
       url("../image/illustration-1-contact-form-desktop.png"),
       url("../image/illustration-2-contact-form-desktop.svg"),
       url("../image/contact-form-illustratoin-3-desktop.svg");
