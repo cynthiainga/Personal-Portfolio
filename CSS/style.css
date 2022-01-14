@@ -290,6 +290,16 @@ ul {
   text-align: center;
 }
 
+.card-item-technologies li {
+  list-style: none;
+  background-color: #ebf0ee;
+  font-size: 0.75rem;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .frames .languages li {
   font-size: 12px;
   font-weight: 600;
@@ -500,11 +510,17 @@ button:active {
     margin: 24px auto 44px;
   }
 
+  .card-container .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .social-media-icons li a img {
     padding: 0 20px;
   }
 
-  .works-section-title h2{
+  .works-section-title h2 {
     padding: 80px 0 32px;
   }
 
@@ -755,6 +771,7 @@ textarea:hover::placeholder {
   padding: 0;
   min-height: 30rem;
 }
+
 .card-wrapper .card-item {
   display: flex;
   flex-direction: column;
@@ -767,12 +784,6 @@ textarea:hover::placeholder {
   overflow: hidden;
 }
 
-.card-container .card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .card-container .card-details {
   text-align: center;
   display: flex;
@@ -780,8 +791,9 @@ textarea:hover::placeholder {
   justify-content: space-between;
   min-height: 15rem;
 }
+
 .card-container .card-details .card-title {
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
 .card-container .card-details .card-title h2 {
@@ -797,19 +809,11 @@ textarea:hover::placeholder {
   justify-content: center;
   flex-wrap: wrap;
 }
-.card-item-technologies li {
-  list-style: none;
-  background-color: #ebf0ee;
-  font-size: 0.75rem;
-  padding: 0.6rem;
-  border-radius: 0.3rem;
-  margin-right: 0.5rem;
-  margin-top: 0.5rem;
-}
 
 .card-btn-container {
   margin-bottom: 1rem;
 }
+
 .card-btn-container .card-btn {
   background-color: #36b37f;
   border: none;
@@ -829,22 +833,13 @@ textarea:hover::placeholder {
 @media (min-width: 992px) {
   .card-container {
     width: 95%;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .card-container {
     width: 95%;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
   }
-}
-
-button:hover {
-  background-color: #36B37F;
-  /* box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24); */
-}
-
-button:active {
-  background-color: #008552;
 }
