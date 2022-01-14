@@ -324,9 +324,7 @@ button:active {
 }
 
 .about-section {
-  background: url("../image/illustration2-about-me-mobile.svg") left 22%
-      no-repeat,
-    url("../image/illustration1-about-me-mobile.svg") right 2% no-repeat;
+  background: url("../image/illustration2-about-me-mobile.svg") left 22% no-repeat, url("../image/illustration1-about-me-mobile.svg") right 2% no-repeat;
   background-size: 18%;
   padding-bottom: 60px;
 }
@@ -348,6 +346,7 @@ button:active {
   0% {
     transform: translateX(-160%);
   }
+
   100% {
     transform: translateX(0%);
   }
@@ -368,6 +367,7 @@ button:active {
   0% {
     transform: translateX(160%);
   }
+
   100% {
     transform: translateX(0%);
   }
@@ -583,8 +583,7 @@ button:active {
 
   .about-section {
     background-image: none;
-    background-image: url("../image/illustration-about\ me-1-desktop@2x.png"),
-      url("../image/illustration-about-me-2-desktop@2x.svg");
+    background-image: url("../image/illustration-about\ me-1-desktop@2x.png"), url("../image/illustration-about-me-2-desktop@2x.svg");
     background-position: right 3%, left 18%;
     background-size: 16%;
     background-repeat: no-repeat;
@@ -683,8 +682,7 @@ textarea:hover::placeholder {
 
   .about-section {
     background-image: none;
-    background-image: url("../image/illustration-about\ me-1-desktop@2x.png"),
-      url("../image/illustration-about-me-2-desktop@2x.png");
+    background-image: url("../image/illustration-about\ me-1-desktop@2x.png"), url("../image/illustration-about-me-2-desktop@2x.png");
     background-position: right 3%, left 17%;
     background-size: 15%;
     background-repeat: no-repeat;
@@ -705,9 +703,7 @@ textarea:hover::placeholder {
   section.contact-form {
     width: 100%;
     background-image: none;
-    background-image: url("../image/illustration-1-contact-form-desktop.png"),
-      url("../image/illustration-2-contact-form-desktop.svg"),
-      url("../image/contact-form-illustratoin-3-desktop.svg");
+    background-image: url("../image/illustration-1-contact-form-desktop.png"), url("../image/illustration-2-contact-form-desktop.svg"), url("../image/contact-form-illustratoin-3-desktop.svg");
     background-position: left bottom, 30% bottom, right bottom;
     background-size: 12%;
     background-repeat: no-repeat;
