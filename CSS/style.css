@@ -510,14 +510,14 @@ button:active {
     margin: 24px auto 44px;
   }
 
+  .social-media-icons li a img {
+    padding: 0 20px;
+  }
+
   .card-container .card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-
-  .social-media-icons li a img {
-    padding: 0 20px;
   }
 
   .works-section-title h2 {
@@ -641,11 +641,10 @@ textarea:hover::placeholder {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media screen and (min-width: 992px) {
-  
   .mobile-invisible {
     display: none;
   }
-  
+
   .desktop-invisible {
     display: block;
   }
@@ -686,10 +685,7 @@ textarea:hover::placeholder {
       url("../image/illustration-1-contact-form-desktop.png"),
       url("../image/illustration-2-contact-form-desktop.svg"),
       url("../image/contact-form-illustratoin-3-desktop.svg");
-    background-position: 
-      left bottom,
-      30% bottom,
-      right bottom;
+    background-position: left bottom, 30% bottom, right bottom;
     background-size: 12%;
     background-repeat: no-repeat;
   }
@@ -804,7 +800,6 @@ textarea:hover::placeholder {
 .card-item-technologies {
   padding: 0;
   display: flex;
-  padding: 1rem;
   padding-top: 0;
   justify-content: center;
   flex-wrap: wrap;
