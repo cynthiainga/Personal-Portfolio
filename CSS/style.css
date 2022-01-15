@@ -90,6 +90,12 @@ html {
   text-align: center;
 }
 
+.logo {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #28352f;
+}
+
 .d-flex {
   display: flex;
 }
@@ -256,6 +262,12 @@ ul {
   padding: 0 20px;
   margin: 5px 0;
   transition: all 0.3s ease-in-out;
+}
+
+.card-container .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .social-media-icons li a img:hover {
@@ -536,12 +548,6 @@ button:active {
     padding: 0 20px;
   }
 
-  .card-container .card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
   .works-section-title h2 {
     padding: 80px 0 32px;
   }
@@ -554,18 +560,16 @@ button:active {
     margin: 64px 0 245px;
   }
 
-  .cards-container,
   .frame-wrapper {
     width: calc(654px + 24px + 20px);
     padding: 10px 10px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
-    grid-auto-rows: 472px;
+    grid-auto-rows: calc(500px - 5px);
     margin: 0 auto;
     text-align: center;
   }
 
-  .cards-container .section-1,
   .frame-wrapper .frames {
     width: 327px;
     height: 472px;
@@ -583,7 +587,7 @@ button:active {
 
   .about-section {
     background-image: none;
-    background-image: url("../image/illustration-about\ me-1-desktop@2x.png"), url("../image/illustration-about-me-2-desktop@2x.svg");
+    background-image: url("../image/illustration-about-me-1-desktop@2x.png"), url("../image/illustration-about-me-2-desktop@2x.svg");
     background-position: right 3%, left 18%;
     background-size: 16%;
     background-repeat: no-repeat;
@@ -682,7 +686,7 @@ textarea:hover::placeholder {
 
   .about-section {
     background-image: none;
-    background-image: url("../image/illustration-about\ me-1-desktop@2x.png"), url("../image/illustration-about-me-2-desktop@2x.png");
+    background-image: url("../image/illustration-about-me-1-desktop@2x.png"), url("../image/illustration-about-me-2-desktop@2x.png");
     background-position: right 3%, left 17%;
     background-size: 15%;
     background-repeat: no-repeat;
@@ -779,22 +783,22 @@ textarea:hover::placeholder {
 
 .card-container {
   display: grid;
-  width: 90%;
+  width: 327px;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
   overflow: hidden;
   padding: 0;
   min-height: 30rem;
 }
 
 .card-wrapper .card-item {
-  display: flex;
   flex-direction: column;
   border: 1px solid #d0d9d4;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .card-container .card-image {
+  width: 100%;
   height: 15rem;
   overflow: hidden;
 }
@@ -808,7 +812,7 @@ textarea:hover::placeholder {
 }
 
 .card-container .card-details .card-title {
-  padding: 1.2rem;
+  padding: 1rem;
 }
 
 .card-container .card-details .card-title h2 {
@@ -839,21 +843,27 @@ textarea:hover::placeholder {
 
 @media (min-width: 768px) {
   .card-container {
-    width: 75%;
+    width: 700px;
+    padding: 10px 15px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 992px) {
   .card-container {
-    width: 95%;
-    grid-template-columns: repeat(3, 1fr);
+    width: 700px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .card-container {
-    width: 95%;
+    width: 98%;
+    max-width: 999px;
+    padding: 10px 4px;
+    margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
   }
 }
