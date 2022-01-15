@@ -764,9 +764,9 @@ textarea:hover::placeholder {
 
 .card-container {
   display: grid;
-  width: 90%;
+  width: 327px;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
   overflow: hidden;
   padding: 0;
   min-height: 30rem;
@@ -775,7 +775,7 @@ textarea:hover::placeholder {
 .card-wrapper .card-item {
   flex-direction: column;
   border: 1px solid #d0d9d4;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .card-container .card-image {
@@ -824,14 +824,17 @@ textarea:hover::placeholder {
 
 @media (min-width: 768px) {
   .card-container {
-    width: 95%;
+    width: 700px;
+    padding: 10px 15px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 992px) {
   .card-container {
-    width: 85%;
+    width: 700px;
+    padding: 10px 10px;
+    margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -839,6 +842,9 @@ textarea:hover::placeholder {
 @media (min-width: 1024px) {
   .card-container {
     width: 98%;
+    max-width: 999px;
+    padding: 10px 4px;
+    margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
   }
 }
