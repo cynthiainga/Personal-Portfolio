@@ -121,6 +121,8 @@ header {
   align-items: center;
   width: 100%;
   padding: 14px;
+  position: fixed;
+  background-color: #fff;
 }
 
 header h2 {
