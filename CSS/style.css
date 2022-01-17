@@ -465,7 +465,7 @@ button:active {
     z-index: 1;
   }
 
-  header h2,
+  header .logo,
   nav .show-menu-btn {
     display: none;
   }
