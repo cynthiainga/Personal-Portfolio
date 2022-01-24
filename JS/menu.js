@@ -22,7 +22,6 @@ closedBtn.style.display = 'none';
 html.style.overflow = 'auto';
 }
 
-
 function directMenu() {
     navMenu.classList.remove('open');
     closedBtn.style.display = 'none'
