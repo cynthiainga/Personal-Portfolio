@@ -121,6 +121,8 @@ header {
   align-items: center;
   width: 100%;
   padding: 14px;
+  position: fixed;
+  background-color: #fff;
 }
 
 header h2 {
@@ -487,7 +489,7 @@ button:active {
     z-index: 1;
   }
 
-  header h2,
+  header .logo,
   nav .show-menu-btn {
     display: none;
   }

@@ -33,7 +33,7 @@ The objectives of this project is to:
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Portfolio Link](https://cynthiainga.github.io/)
 
 
 ## Getting Started
