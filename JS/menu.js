@@ -21,3 +21,17 @@ closedBtn.style.display = 'none';
 }, 500);
 html.style.overflow = 'auto';
 }
+
+
+function directMenu() {
+    navMenu.classList.remove('open');
+    closedBtn.style.display = 'none'
+    html.style.overflow = 'auto';
+}
+
+navlinks.forEach((link) => {
+    link.addEventListener ('click', directMenu);
+});
+
+showBtn.addEventListener('click', showMenu);
+closedBtn.addEventListener('click', closeMenu);
