@@ -5,31 +5,31 @@ const closedBtn = document.querySelector('nav .closed-menu-btn');
 const navlinks = document.querySelectorAll('nav ul li');
 
 function showMenu() {
-navMenu.classList.add('open');
-navMenu.classList.remove('hide');
-setTimeout (() => {
-closedBtn.style.display = 'block';
-}, 1000);
-html.style.overflow = 'hidden'
+  navMenu.classList.add('open');
+  navMenu.classList.remove('hide');
+  setTimeout(() => {
+    closedBtn.style.display = 'block';
+  }, 1000);
+  html.style.overflow = 'hidden';
 }
 
 function closeMenu() {
-navMenu.classList.remove('open');
-navMenu.classList.add('hide');
-setTimeout(() => {
-closedBtn.style.display = 'none';
-}, 500);
-html.style.overflow = 'auto';
+  navMenu.classList.remove('open');
+  navMenu.classList.add('hide');
+  setTimeout(() => {
+    closedBtn.style.display = 'none';
+  }, 500);
+  html.style.overflow = 'auto';
 }
 
 function directMenu() {
-    navMenu.classList.remove('open');
-    closedBtn.style.display = 'none'
-    html.style.overflow = 'auto';
+  navMenu.classList.remove('open');
+  closedBtn.style.display = 'none';
+  html.style.overflow = 'auto';
 }
 
 navlinks.forEach((link) => {
-    link.addEventListener ('click', directMenu);
+  link.addEventListener('click', directMenu);
 });
 
 showBtn.addEventListener('click', showMenu);
