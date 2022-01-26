@@ -260,3 +260,41 @@ projects.forEach((project) => {
   const card = createCard(project);
   cardContainer.appendChild(card);
 });
+
+function createPopup(object) {
+    const popupCard = document.createElement('div');
+    popupCard.classList.add('card-popup');
+    popupCard.id = object.id;
+    popupCard.innerHTML = `
+    <div class="fixed">
+    <div class="project-img">
+    <img class="card-img" src="${object.images.img}" alt="${object.images.altText}">
+    <img class="hide-icon" src="./image/icons/Disabled.svg" alt="close icon">
+    </div>
+    <div class="article">
+      <h3>${object.heading}</h3>
+      <ul class="program-lang d-flex">
+      ${object.languages.map((lang) => `<li class="btn tag_btn mobile-invisible"> 
+                                          ${lang}
+                                          </li>`).join('')}
+  
+      ${object.technologies.map((tech) => `<li class="btn tag_btn desktop-invisible"> 
+                                          ${tech}
+                                          </li>`).join('')}
+      </ul>
+      <p>${object.description}</p>
+      <div class="btns-popup d-flex">
+      <a href="${object.list[0].liveDemo}"><button type="button" class="btn-card d-flex flex-center"><span>${object.list[0].text}</span><img src="./image/icons/Icon-Export@2x.svg" alt=""></button></a>
+      <a href="${object.list[1].codeSource}"><button type="button" class="btn-card d-flex flex-center"><span>${object.list[1].text2}</span><img src="./image/icons/Icon-GitHub-1.svg" alt=""></button></a>
+      </div>
+    </div>
+    </div>`;
+    return popupCard;
+  }
+  
+  const buttons = document.querySelectorAll('li.card-item .card-btn');
+  const four = document.querySelectorAll('.card-popup .program-lang li:nth-child(4)');
+  
+  four.forEach((li) => {
+    li.style.display = 'none';
+  });
