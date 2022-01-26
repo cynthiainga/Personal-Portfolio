@@ -284,8 +284,8 @@ function createPopup(object) {
       </ul>
       <p>${object.description}</p>
       <div class="btns-popup d-flex">
-      <a href="${object.list[0].liveDemo}"><div><button type="button" class="btn-card d-flex flex-center"><span>${object.list[0].text}</span><img src="./image/icons/Icon-Export@2x.svg" alt=""></button></div></a>
-      <a href="${object.list[1].codeSource}"><div><button type="button" class="btn-card d-flex flex-center"><span>${object.list[1].text2}</span><img src="./image/icons/Icon-GitHub-1.svg" alt=""></button></div></a>
+      <a class="btn-card d-flex flex-center" href="${object.list[0].liveDemo}"><span>${object.list[0].text}</span><img src="./image/icons/Icon-Export@2x.svg" alt=""></a>
+      <a class="btn-card d-flex flex-center" href="${object.list[1].codeSource}"><span>${object.list[1].text2}</span><img src="./image/icons/Icon-GitHub-1.svg" alt=""></a>
       </div>
     </div>
     </div>`;
