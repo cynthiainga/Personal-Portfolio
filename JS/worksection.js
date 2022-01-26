@@ -58,12 +58,12 @@ const projects = [
       'HTML',
     ],
     technologies: [
-        'Codekit',
-        'GitHub',
-        'Javascript',
-        'Bootstrap',
-        'Terminal',
-        'Codepen',
+      'Codekit',
+      'GitHub',
+      'Javascript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
     ],
 
     button: 'See Project',
@@ -99,14 +99,14 @@ const projects = [
     technologies: [
       'Codekit',
       'GitHub',
-       'Javascript',
+      'Javascript',
       'Bootstrap',
       'Terminal',
       'Codepen',
     ],
 
     button: 'See Project',
-    description:  'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     list: [
       {
         text: 'See Live',
@@ -145,7 +145,7 @@ const projects = [
     ],
 
     button: 'See Project',
-    description:  'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     list: [
       {
         text: 'See Live',
@@ -185,7 +185,7 @@ const projects = [
     ],
 
     button: 'See Project',
-    description:  'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     list: [
       {
         text: 'See Live',
@@ -223,7 +223,7 @@ const projects = [
       'Codepen',
     ],
     button: 'See Project',
-    description:  'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     list: [
       {
         text: 'See Live',
@@ -252,7 +252,7 @@ function createCard(cardObject) {
    ${lang}</li>`).join('')}
   </ul>
   <div class="card-btn-container">
-  <button type="button" class="card-btn ${cardObject.id}" id="${cardObject.id}">See Project</button> </div> </div>`
+  <button type="button" class="card-btn ${cardObject.id}" id="${cardObject.id}">See Project</button> </div> </div>`;
   return li;
 }
 
@@ -262,10 +262,10 @@ projects.forEach((project) => {
 });
 
 function createPopup(object) {
-    const popupCard = document.createElement('div');
-    popupCard.classList.add('card-popup');
-    popupCard.id = object.id;
-    popupCard.innerHTML = `
+  const popupCard = document.createElement('div');
+  popupCard.classList.add('card-popup');
+  popupCard.id = object.id;
+  popupCard.innerHTML = `
     <div class="fixed">
     <div class="project-img">
     <img class="card-img" src="${object.images.img}" alt="${object.images.altText}">
@@ -289,36 +289,30 @@ function createPopup(object) {
       </div>
     </div>
     </div>`;
-    return popupCard;
-  }
-  
-  const buttons = document.querySelectorAll('li.card-item .card-btn');
-  const four = document.querySelectorAll('.card-popup .program-lang li:nth-child(4)');
-  
-  four.forEach((li) => {
-    li.style.display = 'none';
-  });
+  return popupCard;
+}  
+const buttons = document.querySelectorAll('li.card-item .card-btn');
+const four = document.querySelectorAll('.card-popup .program-lang li:nth-child(4)');  
+four.forEach((li) => {
+  li.style.display = 'none';
+});
 
-  projects.forEach((project) => {
-    buttons.forEach((button) => {
-      button.addEventListener('click', () => {
-        if (project.id === button.id) {
-          const popupCard = createPopup(project);
-          popupContainer.appendChild(popupCard);
-  
-  
-          document.querySelector('.card-popup').classList.add('active');
-          popupContainer.style.visibility = 'visible';
-          htmls.style.overflow = 'hidden';
-  
-          const popAnimation = popupContainer.querySelector('.card-popup');
-          popAnimation.classList.add('inActive');
-          setTimeout(() => {
-            popAnimation.classList.remove('inActive');
-          }, 1000);
+projects.forEach((project) => {
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      if (project.id === button.id) {
+        const popupCard = createPopup(project);
+        popupContainer.appendChild(popupCard);  
+        document.querySelector('.card-popup').classList.add('active');
+        popupContainer.style.visibility = 'visible';
+        htmls.style.overflow = 'hidden';  
+        const popAnimation = popupContainer.querySelector('.card-popup');
+        popAnimation.classList.add('inActive');
+        setTimeout(() => {
+          popAnimation.classList.remove('inActive');
+        }, 1000);
 
-          const closeBtn = document.querySelector('.card-popup .hide-icon');
-
+        const closeBtn = document.querySelector('.card-popup .hide-icon');
 
         closeBtn.addEventListener('click', () => {
           const popAnimation = popupContainer.querySelector('.card-popup');
