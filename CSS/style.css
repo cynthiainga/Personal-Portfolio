@@ -653,6 +653,16 @@ article {
   .card-popup button span {
     margin-right: 16px;
   }
+
+  .card-popup .card-img {
+    height: 394px;
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    min-height: 352px;
+    border-radius: 8px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -765,6 +775,16 @@ article {
     width: 75%;
   }
 
+  .card-popup .card-img {
+    height: 394px;
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    min-height: 352px;
+    border-radius: 8px;
+  }
+
   .about p {
     width: calc(654px - 24px);
   }
@@ -873,7 +893,17 @@ textarea:hover::placeholder {
   }
 
   .card-popup .project-img {
-    margin-top: 48px;
+    margin-top: 1px;
+  }
+
+  .card-popup .card-img {
+    height: 394px;
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    min-height: 352px;
+    border-radius: 8px;
   }
 
   .card-popup .hide-icon {
