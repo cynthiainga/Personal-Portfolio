@@ -238,3 +238,25 @@ const projects = [
     ],
   },
 ];
+
+function createCard(cardObject) {
+  const li = document.createElement('li');
+  li.className = 'card-item';
+  li.innerHTML = `<div class="card-image">
+  <img src="${cardObject.images.img}" alt="${cardObject.images.altText}">
+  </div>
+  <div class="card-details">
+  <div class="card-title"> <h2>${cardObject.name}</h2> </div>
+  <ul class="card-item-technologies">
+  ${cardObject.languages.map((lang) => `<li>
+   ${lang}</li>`).join('')}
+  </ul>
+  <div class="card-btn-container">
+  <button type="button" class="card-btn ${cardObject.id}" id="${cardObject.id}">See Project</button> </div> </div>`
+  return li;
+}
+
+projects.forEach((project) => {
+  const card = createCard(project);
+  cardContainer.appendChild(card);
+});
