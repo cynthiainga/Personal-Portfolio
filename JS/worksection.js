@@ -316,4 +316,25 @@ function createPopup(object) {
           setTimeout(() => {
             popAnimation.classList.remove('inActive');
           }, 1000);
-  
+
+          const closeBtn = document.querySelector('.card-popup .hide-icon');
+
+
+        closeBtn.addEventListener('click', () => {
+          const popAnimation = popupContainer.querySelector('.card-popup');
+          popAnimation.classList.add('outActive');
+
+          setTimeout(() => {
+            document.querySelector('.card-popup.active').classList.remove('active');
+            popAnimation.classList.remove('outActive');
+            popupContainer.style.visibility = 'hidden';
+            htmls.style.overflow = 'auto';
+          }, 700);
+          setTimeout(() => {
+            popupContainer.innerHTML = '';
+          }, 1000);
+        });
+      }
+    });
+  });
+});
