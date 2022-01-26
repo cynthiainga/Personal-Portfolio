@@ -268,7 +268,7 @@ ul {
 
 .card-container .card-image img {
   width: 100%;
-  height: 100%;
+  height: 15rem;
   object-fit: cover;
 }
 
@@ -337,6 +337,198 @@ button:active {
   background-color: #008552;
 }
 
+article {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  background-color: #c1c7d0c0;
+  backdrop-filter: blur(5px);
+  border: 1px solid #d0d9d4;
+}
+
+.fixed {
+  margin: 26px 16px 46px;
+  background-color: #3a4a42;
+  background-color: #fff;
+  position: relative;
+  z-index: 4;
+  border-radius: 16px;
+  overflow-y: hidden;
+}
+
+.card-popup {
+  display: none;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  z-index: 5;
+}
+
+.inActive {
+  animation: zooms-in 1s ease;
+}
+
+@keyframes zooms-in {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.outActive {
+  animation: zooms-out 1s ease;
+}
+
+@keyframes zooms-out {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+.card-popup::-webkit-scrollbar {
+  display: none;
+}
+
+.card-popup.active {
+  display: block;
+}
+
+.card-popup .project-img {
+  width: 100%;
+  height: auto;
+  min-height: 352px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card-popup .card-img {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  min-height: 352px;
+  border-radius: 8px;
+}
+
+.card-popup .hide-icon {
+  position: absolute;
+  top: 3%;
+  right: 4%;
+  z-index: 6;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+}
+
+.card-popup .article {
+  width: 100%;
+  min-width: 311px;
+  padding: 0 16px;
+}
+
+.card-popup h3 {
+  width: 70%;
+  min-width: 259px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--primary);
+}
+
+.card-popup ul {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card-popup .program-lang li {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 12px 4px;
+  color: #3a4a42;
+  background: var(--background);
+}
+
+.card-popup p {
+  width: 90%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+}
+
+.card-popup button {
+  margin: 16px 0;
+  height: 48px;
+  padding: 12px 14px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--secondary-btn);
+  transition: all 0.4s ease 0.2s;
+}
+
+.about button,
+.contact-form button {
+  height: 48px;
+  width: 159px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--secondary-btn);
+  letter-spacing: 0.03em;
+  padding: 12px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease 0.2s;
+}
+
+.contact-form button {
+  margin-top: 7px;
+  transition: all 0.4s ease 0.2s;
+}
+
+.card-popup button:first-child {
+  margin-right: 8px;
+}
+
+.card-popup button span {
+  margin-right: 8px;
+}
+
+.card-popup button:hover {
+  cursor: pointer;
+  box-shadow: 10px 8px 16px rgba(54, 179, 127, 0.24);
+  transform: scale(0.9);
+}
+
+.card-popup button:active {
+  background-color: #008552;
+}
+
 .about-section {
   background: url("../image/illustration2-about-me-mobile.svg") left 22% no-repeat, url("../image/illustration1-about-me-mobile.svg") right 2% no-repeat;
   background-size: 18%;
@@ -385,28 +577,6 @@ button:active {
   100% {
     transform: translateX(0%);
   }
-}
-
-.about button,
-.contact-form button {
-  height: 48px;
-  width: 159px;
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 500;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  background-color: var(--secondary-btn);
-  letter-spacing: 0.03em;
-  padding: 12px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease 0.2s;
-}
-
-.contact-form button {
-  margin-top: 7px;
-  transition: all 0.4s ease 0.2s;
 }
 
 .about button:active {
@@ -474,6 +644,14 @@ button:active {
 
   .frame-wrapper {
     padding: 0 24px;
+  }
+
+  .card-popup button:first-child {
+    margin-right: 12px;
+  }
+
+  .card-popup button span {
+    margin-right: 16px;
   }
 }
 
@@ -583,6 +761,10 @@ button:active {
     grid-column: 1 / span 2;
   }
 
+  .card-popup {
+    width: 75%;
+  }
+
   .about p {
     width: calc(654px - 24px);
   }
@@ -684,6 +866,53 @@ textarea:hover::placeholder {
   .frame-wrapper .frames {
     width: 369px;
     max-height: 474px;
+  }
+
+  .card-popup {
+    max-width: 920px;
+  }
+
+  .card-popup .project-img {
+    margin-top: 48px;
+  }
+
+  .card-popup .hide-icon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+
+  .card-popup .article {
+    width: 100%;
+    padding-bottom: 44px;
+    position: relative;
+  }
+
+  .card-popup h3 {
+    width: 60%;
+  }
+
+  .card-popup .article .btns-popup {
+    position: absolute;
+    top: 0;
+    right: 16px;
+  }
+
+  .card-popup button {
+    margin: 0;
+    padding: 8px 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--secondary-btn);
+    transition: all 0.4s ease 0.2s;
+  }
+
+  .card-popup button:first-child {
+    margin-right: 6px;
   }
 
   .about-section {
@@ -858,6 +1087,18 @@ textarea:hover::placeholder {
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .card-container .card-image {
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+  }
+
+  .card-container .card-image img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -867,5 +1108,17 @@ textarea:hover::placeholder {
     padding: 10px 4px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card-container .card-image {
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+  }
+
+  .card-container .card-image img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
   }
 }
