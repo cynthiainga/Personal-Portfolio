@@ -284,15 +284,15 @@ function createPopup(object) {
       </ul>
       <p>${object.description}</p>
       <div class="btns-popup d-flex">
-      <a href="${object.list[0].liveDemo}"><button type="button" class="btn-card d-flex flex-center"><span>${object.list[0].text}</span><img src="./image/icons/Icon-Export@2x.svg" alt=""></button></a>
-      <a href="${object.list[1].codeSource}"><button type="button" class="btn-card d-flex flex-center"><span>${object.list[1].text2}</span><img src="./image/icons/Icon-GitHub-1.svg" alt=""></button></a>
+      <a href="${object.list[0].liveDemo}"><div><button type="button" class="btn-card d-flex flex-center"><span>${object.list[0].text}</span><img src="./image/icons/Icon-Export@2x.svg" alt=""></button></div></a>
+      <a href="${object.list[1].codeSource}"><div><button type="button" class="btn-card d-flex flex-center"><span>${object.list[1].text2}</span><img src="./image/icons/Icon-GitHub-1.svg" alt=""></button></div></a>
       </div>
     </div>
     </div>`;
   return popupCard;
-}  
+}
 const buttons = document.querySelectorAll('li.card-item .card-btn');
-const four = document.querySelectorAll('.card-popup .program-lang li:nth-child(4)');  
+const four = document.querySelectorAll('.card-popup .program-lang li:nth-child(4)');
 four.forEach((li) => {
   li.style.display = 'none';
 });
@@ -302,10 +302,10 @@ projects.forEach((project) => {
     button.addEventListener('click', () => {
       if (project.id === button.id) {
         const popupCard = createPopup(project);
-        popupContainer.appendChild(popupCard);  
+        popupContainer.appendChild(popupCard);
         document.querySelector('.card-popup').classList.add('active');
         popupContainer.style.visibility = 'visible';
-        htmls.style.overflow = 'hidden';  
+        htmls.style.overflow = 'hidden';
         const popAnimation = popupContainer.querySelector('.card-popup');
         popAnimation.classList.add('inActive');
         setTimeout(() => {
