@@ -298,3 +298,22 @@ function createPopup(object) {
   four.forEach((li) => {
     li.style.display = 'none';
   });
+
+  projects.forEach((project) => {
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        if (project.id === button.id) {
+          const popupCard = createPopup(project);
+          popupContainer.appendChild(popupCard);
+  
+  
+          document.querySelector('.card-popup').classList.add('active');
+          popupContainer.style.visibility = 'visible';
+          htmls.style.overflow = 'hidden';
+  
+          const popAnimation = popupContainer.querySelector('.card-popup');
+          popAnimation.classList.add('inActive');
+          setTimeout(() => {
+            popAnimation.classList.remove('inActive');
+          }, 1000);
+  
