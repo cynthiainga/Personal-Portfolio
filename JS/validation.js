@@ -43,3 +43,11 @@ form.addEventListener('input', () => {
 
 let savedDataStorage = localStorage.getItem('dataStorage');
 savedDataStorage = JSON.parse(savedDataStorage);
+
+window.onload = () => {
+  if (savedDataStorage) {
+    nameInput.value = savedDataStorage.enterName;
+    email.value = savedDataStorage.enterEmail;
+    messageInput.value = savedDataStorage.enterMessage;
+  }
+};
