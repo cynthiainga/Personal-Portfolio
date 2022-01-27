@@ -509,6 +509,8 @@ article {
 .contact-form button {
   margin-top: 7px;
   transition: all 0.4s ease 0.2s;
+  width: 127px;
+  margin-left: 10px;
 }
 
 .card-popup button:first-child {
@@ -839,18 +841,18 @@ form {
 
 .contact-form textarea {
   margin: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   border-radius: 4px;
-  padding: 12px;
+  padding: 9px;
   width: 95%;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Inter", sans-serif;
 }
 
 input:focus,
 textarea:focus {
   border: none;
-  border: 1.3px solid #60c095;
+  border: 1.3px solid #138a54;
   outline: none;
 }
 
