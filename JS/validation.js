@@ -17,7 +17,7 @@ alertMsg.style.visibility = 'hidden';
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     alertMsg.style.visibility = 'visible';
-    email.style.border = ' 1px solid #60C095';
+    email.style.border = ' 2px solid #60C095';
     email.style.boxShadow = '1px 1px 10px #008552';
 
     setTimeout(() => {
