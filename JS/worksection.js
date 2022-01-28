@@ -51,7 +51,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    language: [
+    languages: [
       'Ruby on rails',
       'CSS',
       'JavaScript',
@@ -90,7 +90,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    language: [
+    languages: [
       'Ruby on rails',
       'CSS',
       'JavaScript',
@@ -129,7 +129,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    language: [
+    languages: [
       'Ruby on rails',
       'CSS',
       'JavaScript',
@@ -169,7 +169,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    language: [
+    languages: [
       'Ruby on rails',
       'CSS',
       'JavaScript',
@@ -208,7 +208,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    language: [
+    languages: [
       'Ruby on rails',
       'CSS',
       'JavaScript',

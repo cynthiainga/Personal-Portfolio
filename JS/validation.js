@@ -2,7 +2,6 @@ const form = document.getElementById('form');
 const nameInput = document.getElementById('name');
 const email = document.getElementById('mail');
 const messageInput = document.getElementById('msg');
-const label = document.getElementByIdId('label'),
 
 const alertParent = document.querySelector('.btn-submit-alert');
 const alertMsg = document.createElement('p');
