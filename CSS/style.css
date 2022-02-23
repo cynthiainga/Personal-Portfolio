@@ -1,3 +1,5 @@
+/* stylelint-disable font-family-name-quotes */
+/* stylelint-disable selector-class-pattern */
 html {
   scroll-behavior: smooth;
 }
@@ -1133,7 +1135,7 @@ textarea:hover::placeholder {
 @media (min-width: 1024px) {
   .card-container {
     width: 98%;
-    max-width: 999px;
+    max-width: 1200px;
     padding: 10px 4px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);

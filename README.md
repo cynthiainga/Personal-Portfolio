@@ -24,7 +24,6 @@ The objectives of this project is to:
 - Understand the importance of UX.
 - Understand how to create UIs adaptable to different screen sizes using media queries.
 
-
 ## Built With
 
 - HTML
@@ -33,8 +32,7 @@ The objectives of this project is to:
 
 ## Live Demo
 
-[Portfolio Link](https://cynthiainga.github.io/)
-
+[Portfolio Link](https://cynthiainga.github.io/Personal-Portfolio/)
 
 ## Getting Started
 
@@ -49,7 +47,6 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 To clone the repository run the command `git clone https://github.com/cynthiainga/Personal_Portfolio.git`
-
 
 ## Authors
 
