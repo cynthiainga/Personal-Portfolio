@@ -6,39 +6,28 @@ const projects = [
   {
     id: 'project_1',
     images: {
-      img: './image/Snapshoot-Portfolio1.png',
+      img: './image/Capstone1.png',
       cancelPop: './image/icons/Disabled.svg',
       altText: 'project 1 preview image',
     },
-    name: 'Multi-Post Stories Gain+Glory',
-    heading: 'Keeping track of hundreds of components',
-    languages: [
-      'Ruby on rails',
-      'CSS',
-      'JavaScript',
-      'HTML',
-    ],
-    technologies: [
-      'Codekit',
-      'GitHub',
-      'Javascript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
+    name: 'AfroFemCoders',
+    heading: 'AFRO FEM CODERS  SCHOOL ONLIGNE',
+    languages: ['HTML', 'CSS', 'JavaScript'],
+    technologies: ['Codekit', 'GitHub', 'Javascript', 'Terminal', 'Codepen'],
 
     button: 'See Project',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      'Afro Fem Coders aims to create a space that gives women a chance to learn programming in a safe and encouraging environment. Our community is currently made up 1300+ students across 20+ African countries.Female students face numerous challenges, as academic spaces are often unsafe and unsupportive, and there remains a heavy stigma around women pursuing careers in technology.',
     list: [
       {
         text: 'See Live',
         icon: './image/icons/Icon-Export@2x.svg',
-        liveDemo: 'https://cynthiainga.github.io/',
+        liveDemo: 'https://cynthiainga.github.io/Capstone-Proj-1/',
       },
       {
         text2: 'See Source',
         icon: './image/icons/Icon-GitHub-1.svg',
-        codeSource: 'https://github.com/cynthiainga/Personal-Portfolio',
+        codeSource: 'https://github.com/cynthiainga/Capstone-Proj-1',
       },
     ],
   },
@@ -51,12 +40,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    languages: [
-      'Ruby on rails',
-      'CSS',
-      'JavaScript',
-      'HTML',
-    ],
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     technologies: [
       'Codekit',
       'GitHub',
@@ -67,7 +51,8 @@ const projects = [
     ],
 
     button: 'See Project',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     list: [
       {
         text: 'See Live',
@@ -90,12 +75,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    languages: [
-      'Ruby on rails',
-      'CSS',
-      'JavaScript',
-      'HTML',
-    ],
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     technologies: [
       'Codekit',
       'GitHub',
@@ -106,7 +86,8 @@ const projects = [
     ],
 
     button: 'See Project',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     list: [
       {
         text: 'See Live',
@@ -129,12 +110,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    languages: [
-      'Ruby on rails',
-      'CSS',
-      'JavaScript',
-      'HTML',
-    ],
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     technologies: [
       'Codekit',
       'GitHub',
@@ -145,7 +121,8 @@ const projects = [
     ],
 
     button: 'See Project',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     list: [
       {
         text: 'See Live',
@@ -156,7 +133,6 @@ const projects = [
         text2: 'See Source',
         icon: './images/icons/Icon-GitHub-1.svg',
         codeSource: 'https://github.com/cynthiainga/Personal-Portfolio',
-
       },
     ],
   },
@@ -169,12 +145,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    languages: [
-      'Ruby on rails',
-      'CSS',
-      'JavaScript',
-      'HTML',
-    ],
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     technologies: [
       'Codekit',
       'GitHub',
@@ -185,7 +156,8 @@ const projects = [
     ],
 
     button: 'See Project',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     list: [
       {
         text: 'See Live',
@@ -208,12 +180,7 @@ const projects = [
     },
     name: 'Multi-Post Stories Gain+Glory',
     heading: 'Keeping track of hundreds of components',
-    languages: [
-      'Ruby on rails',
-      'CSS',
-      'JavaScript',
-      'HTML',
-    ],
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     technologies: [
       'Codekit',
       'GitHub',
@@ -223,7 +190,8 @@ const projects = [
       'Codepen',
     ],
     button: 'See Project',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     list: [
       {
         text: 'See Live',
@@ -248,11 +216,17 @@ function createCard(cardObject) {
   <div class="card-details">
   <div class="card-title"> <h2>${cardObject.name}</h2> </div>
   <ul class="card-item-technologies">
-  ${cardObject.languages.map((lang) => `<li>
-   ${lang}</li>`).join('')}
+  ${cardObject.languages
+    .map(
+      (lang) => `<li>
+   ${lang}</li>`,
+    )
+    .join('')}
   </ul>
   <div class="card-btn-container">
-  <button type="button" class="card-btn ${cardObject.id}" id="${cardObject.id}">See Project</button> </div> </div>`;
+  <button type="button" class="card-btn ${cardObject.id}" id="${
+  cardObject.id
+}">See Project</button> </div> </div>`;
   return li;
 }
 
@@ -268,31 +242,51 @@ function createPopup(object) {
   popupCard.innerHTML = `
     <div class="fixed">
     <div class="project-img">
-    <img class="card-img" src="${object.images.img}" alt="${object.images.altText}">
+    <img class="card-img" src="${object.images.img}" alt="${
+  object.images.altText
+}">
     <img class="hide-icon" src="./image/icons/Disabled.svg" alt="close icon">
     </div>
     <div class="article">
       <h3>${object.heading}</h3>
       <ul class="program-lang d-flex">
-      ${object.languages.map((lang) => `<li class="btn tag_btn mobile-invisible"> 
+      ${object.languages
+    .map(
+      (lang) => `<li class="btn tag_btn mobile-invisible"> 
                                           ${lang}
-                                          </li>`).join('')}
+                                          </li>`,
+    )
+    .join('')}
   
-      ${object.technologies.map((tech) => `<li class="btn tag_btn desktop-invisible"> 
+      ${object.technologies
+    .map(
+      (tech) => `<li class="btn tag_btn desktop-invisible"> 
                                           ${tech}
-                                          </li>`).join('')}
+                                          </li>`,
+    )
+    .join('')}
       </ul>
       <p>${object.description}</p>
       <div class="btns-popup d-flex">
-      <a class="btn-card d-flex flex-center" href="${object.list[0].liveDemo}"><span>${object.list[0].text}</span><img src="./image/icons/Icon-Export@2x.svg" alt=""></a>
-      <a class="btn-card d-flex flex-center" href="${object.list[1].codeSource}"><span>${object.list[1].text2}</span><img src="./image/icons/Icon-GitHub-1.svg" alt=""></a>
+      <a class="btn-card d-flex flex-center" href="${
+  object.list[0].liveDemo
+}"><span>${
+  object.list[0].text
+}</span><img src="./image/icons/Icon-Export@2x.svg" alt=""></a>
+      <a class="btn-card d-flex flex-center" href="${
+  object.list[1].codeSource
+}"><span>${
+  object.list[1].text2
+}</span><img src="./image/icons/Icon-GitHub-1.svg" alt=""></a>
       </div>
     </div>
     </div>`;
   return popupCard;
 }
 const buttons = document.querySelectorAll('li.card-item .card-btn');
-const four = document.querySelectorAll('.card-popup .program-lang li:nth-child(4)');
+const four = document.querySelectorAll(
+  '.card-popup .program-lang li:nth-child(4)',
+);
 four.forEach((li) => {
   li.style.display = 'none';
 });
@@ -319,7 +313,9 @@ projects.forEach((project) => {
           popAnimation.classList.add('outActive');
 
           setTimeout(() => {
-            document.querySelector('.card-popup.active').classList.remove('active');
+            document
+              .querySelector('.card-popup.active')
+              .classList.remove('active');
             popAnimation.classList.remove('outActive');
             popupContainer.style.visibility = 'hidden';
             htmls.style.overflow = 'auto';
