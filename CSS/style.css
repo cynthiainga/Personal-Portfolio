@@ -1109,6 +1109,18 @@ textarea:hover::placeholder {
     padding: 10px 15px;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .card-container .card-image {
+    width: 102%;
+    height: 15rem;
+    overflow: hidden;
+  }
+
+  .card-container .card-image img {
+    width: 109%;
+    height: 15rem;
+    object-fit: cover;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1126,7 +1138,7 @@ textarea:hover::placeholder {
   }
 
   .card-container .card-image img {
-    width: 100%;
+    width: 109%;
     height: 15rem;
     object-fit: cover;
   }
