@@ -101,35 +101,35 @@ const projects = [
   {
     id: 'project_4',
     images: {
-      img: './image/Snapshoot-Portfolio(2).png',
+      img: './image/budgetapp.png',
       cancelPop: './image/icons/Disabled.svg',
       altText: 'project 4 preview image',
     },
-    name: 'Multi-Post Stories Gain+Glory',
-    heading: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    name: 'Budget Application',
+    heading: 'TRANSFER MONEY',
+    languages: ['Ruby on rails', 'SCSS', 'JavaScript', 'HTML'],
     technologies: [
       'Codekit',
       'GitHub',
       'Javascript',
-      'Bootstrap',
+      'SASS',
       'Terminal',
       'Codepen',
     ],
 
     button: 'See Project',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "The TransferMoney app is a mobile web application which helps users to manage their budget. It has features of listing transactions associated on a category and with the app you can see how much money you spent on that category.",
     list: [
       {
         text: 'See Live',
         icon: './images/icons/Icon-Export@2x.svg',
-        liveDemo: 'https://cynthiainga.github.io/',
+        liveDemo: 'https://blooming-ravine-10044.herokuapp.com/',
       },
       {
         text2: 'See Source',
         icon: './images/icons/Icon-GitHub-1.svg',
-        codeSource: 'https://github.com/cynthiainga/Personal-Portfolio',
+        codeSource: 'https://github.com/cynthiainga/Budget_App',
       },
     ],
   },
