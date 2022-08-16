@@ -136,69 +136,65 @@ const projects = [
   {
     id: 'project_5',
     images: {
-      img: './image/Snapshoot-Portfolio.png',
+      img: './image/project_5.png',
       cancelPop: './image/icons/Disabled.svg',
       altText: 'project 5 preview image',
     },
-    name: 'Multi-Post Stories Gain+Glory',
-    heading: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    name: 'Awesome Books',
+    heading: 'AWESOME BOOKS',
+    languages: [ 'CSS', 'JavaScript', 'HTML'],
     technologies: [
       'Codekit',
       'GitHub',
       'Javascript',
-      'Bootstrap',
       'Terminal',
-      'Codepen',
     ],
 
     button: 'See Project',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "Awesome books is a simple website that displays a list of books and allows you to add a book to your collection, remove a book from your collection, and store your data history in the browser's memory.",
     list: [
       {
         text: 'See Live',
         icon: './image/icons/Icon-Export@2x.svg',
-        liveDemo: 'https://cynthiainga.github.io/',
+        liveDemo: 'https://cynthiainga.github.io/Awesome-books-with-ES6/',
       },
       {
         text2: 'See Source',
         icon: './image/icons/Icon-GitHub-1.svg',
-        codeSource: 'https://github.com/cynthiainga/Personal-Portfolio',
+        codeSource: 'https://github.com/cynthiainga/Awesome-books-with-ES6',
       },
     ],
   },
   {
     id: 'project_6',
     images: {
-      img: './image/Rectangle-21.png',
+      img: './image/project_6.png',
       cancelPop: './image/icons/Disabled.svg',
       altText: 'project 6 preview image',
     },
-    name: 'Multi-Post Stories Gain+Glory',
-    heading: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    name: 'To Do list',
+    heading: 'TO DO LIST',
+    languages: [ 'CSS', 'JavaScript', 'HTML'],
     technologies: [
       'Codekit',
       'GitHub',
       'Javascript',
-      'Bootstrap',
       'Terminal',
-      'Codepen',
     ],
     button: 'See Project',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "'To-do list' is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.",
     list: [
       {
         text: 'See Live',
         icon: './image/icons/Icon-Export@2x.svg',
-        liveDemo: 'https://cynthiainga.github.io/',
+        liveDemo: 'https://cynthiainga.github.io/to-do-list-app/dist',
       },
       {
         text2: 'See Source',
         icon: './image/icons/Icon-GitHub-1.svg',
-        codeSource: 'https://github.com/cynthiainga/Personal-Portfolio',
+        codeSource: 'https://github.com/cynthiainga/to-do-list-app',
       },
     ],
   },
