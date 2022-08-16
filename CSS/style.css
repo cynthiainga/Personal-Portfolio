@@ -20,6 +20,11 @@ html {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .flex-center {
   align-items: center;
   display: flex;
@@ -491,7 +496,7 @@ article {
   transition: all 0.4s ease 0.2s;
 }
 
-.about button,
+.about button ,
 .contact-form button {
   height: 48px;
   width: 159px;
